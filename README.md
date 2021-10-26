@@ -6,3 +6,4 @@ Tech Stacks:
 - Pug
 - PostgresQL
 - Prisma ORM
+- Tailwind CSS
