@@ -17,7 +17,7 @@ app.use('/', UserRouter);
 app.set('view engine', 'pug');
 
 app.get('/', (_, res) => {
-	res.render('index', { name: 'Juan' });
+	res.render('index');
 });
 
 
