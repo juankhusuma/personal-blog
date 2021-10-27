@@ -8,6 +8,7 @@ const app = express();
 
 app.use(morgan('dev'));
 app.use(express.static('views'));
+
 app.use(bp.json());
 
 /** Router Registrations */
@@ -16,7 +17,7 @@ app.use('/', UserRouter);
 app.set('view engine', 'pug');
 
 app.get('/', (_, res) => {
-	res.render('index', { name: 'John' });
+	res.render('index', { name: 'Juan' });
 });
 
 

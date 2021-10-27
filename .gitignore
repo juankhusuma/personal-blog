@@ -4,4 +4,4 @@ dist
 yarn.lock
 package-lock.json
 yarn-error.log
-style.css
+views/styles/style.css

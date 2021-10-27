@@ -6,6 +6,10 @@ module.exports = {
 	// },
 	darkMode: 'class', // or 'media' or 'class'
 	theme: {
+		fontFamily: {
+			'ubuntu-mono': ['Ubuntu Mono', 'monospace'],
+			'source-code-pro': ['Source Code Pro', 'monospace']
+		},
 		extend: {},
 	},
 	variants: {
