@@ -7,7 +7,7 @@ block content
     ul
         each post in posts
             li
-                h1(class="font-source-code-pro font-bold text-lg")
+                h1(class="font-source-code-pro font-bold text-lg text-black")
                     a(href=`/post/${post.id}`)=post.title
                 a=`@${post.user.username}`
                 p=`Created At: ${post.createdAt}`
