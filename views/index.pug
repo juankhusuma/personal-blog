@@ -2,3 +2,15 @@ extends layout.pug
 
 block content
     h1 Hi Y'all Welcome to My Blog!
+    br
+
+    ul
+        each post in posts
+            li
+                h1(class="font-source-code-pro font-bold text-lg")
+                    a(href=`/post/${post.id}`)=post.title
+                a=`@${post.user.username}`
+                p=`Created At: ${post.createdAt}`
+                p=`Updated At: ${post.updatedAt}`
+                section=post.content 
+                br
